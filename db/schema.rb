@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 2020_03_02_155032) do
 
   create_table "items", force: :cascade do |t|
-    t.float "price"
     t.string "name"
+    t.float "price"
     t.text "description"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
